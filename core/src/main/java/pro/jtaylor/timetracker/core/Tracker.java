@@ -18,7 +18,7 @@ public class Tracker {
     /**
      * Remove method
      * @param int size for entries
-     * /
+     */
     public void remove(TimeEntry entry) {
         entries.remove(entry);
     }
@@ -26,8 +26,7 @@ public class Tracker {
     /**
      * Size method
      * @param int size for entries
-     * /
-
+     */
     public int size() {
         return entries.size();
     }
@@ -35,7 +34,7 @@ public class Tracker {
     /**
      * Get method
      * @param int size for entries
-     * /
+     */
     public TimeEntry get(int index) {
         return entries.get(index);
     }
