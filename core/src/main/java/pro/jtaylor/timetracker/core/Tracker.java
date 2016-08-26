@@ -15,26 +15,17 @@ public class Tracker {
         entries.add(entry);
     }
 
-    /**
-     * Remove method
-     * @param int size for entries
-     */
+
     public void remove(TimeEntry entry) {
         entries.remove(entry);
     }
 
-    /**
-     * Size method
-     * @param int size for entries
-     */
+
     public int size() {
         return entries.size();
     }
 
-    /**
-     * Get method
-     * @param int size for entries
-     */
+
     public TimeEntry get(int index) {
         return entries.get(index);
     }
